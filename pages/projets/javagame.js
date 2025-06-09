@@ -41,8 +41,8 @@ const Work = () => (
       <WorkImage src="/images/works/javagame.png" alt="Java Game Thumbnail" />
 
       <P>
-        J'ai conçu différentes surfaces possédant chacune ses propres caractéristiques 
-        tel que la collision. Les surfaces existantes à l'heure actuelle sont : la terre, l'eau et les murs.
+        J&apos;ai conçu différentes surfaces possédant chacune ses propres caractéristiques 
+        tel que la collision. Les surfaces existantes à l&apos;heure actuelle sont : la terre, l&apos;eau et les murs.
       </P>
 
       <WorkImage src="/images/works/javagame_grass.png" alt="Terre" />
@@ -50,9 +50,9 @@ const Work = () => (
       <WorkImage src="/images/works/javagame_wall_brick.png" alt="Mur" />
 
       <P>
-        J'ai notamment appris à utiliser l'algorithme <Link href='https://fr.wikipedia.org/wiki/Algorithme_A*' target='_blank'>A*</Link> pour implémenter un 
-        système de "pathfinding", l'utilisateur clique sur une case et 
-        l'algorithme trouve le chemin le plus court pour arriver à cette case.
+        J&apos;ai notamment appris à utiliser l&apos;algorithme <Link href='https://fr.wikipedia.org/wiki/Algorithme_A*' target='_blank'>A*</Link> pour implémenter un 
+        système de &quot;pathfinding&quot;, l&apos;utilisateur clique sur une case et 
+        l&apos;algorithme trouve le chemin le plus court pour arriver à cette case.
       </P>
 
       <WorkImage src="/images/works/javagame_pathfinding.gif" alt="Pathfinding Example Gif" />
