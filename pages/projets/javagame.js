@@ -1,10 +1,4 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem
-} from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -17,7 +11,7 @@ const Work = () => (
         Jeu 2D <Badge>2024</Badge>
       </Title>
       <P>
-        Un début de jeu 2D pour apprendre les bases et les concepts du 
+        Un début de jeu 2D pour apprendre les bases et les concepts du
         développement de jeux vidéos.
       </P>
 
@@ -32,17 +26,16 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>
-            Java / Swing
-          </span>
+          <span>Java / Swing</span>
         </ListItem>
       </List>
 
       <WorkImage src="/images/works/javagame.png" alt="Java Game Thumbnail" />
 
       <P>
-        J&apos;ai conçu différentes surfaces possédant chacune ses propres caractéristiques 
-        tel que la collision. Les surfaces existantes à l&apos;heure actuelle sont : la terre, l&apos;eau et les murs.
+        J&apos;ai conçu différentes surfaces possédant chacune ses propres
+        caractéristiques tel que la collision. Les surfaces existantes à
+        l&apos;heure actuelle sont : la terre, l&apos;eau et les murs.
       </P>
 
       <WorkImage src="/images/works/javagame_grass.png" alt="Terre" />
@@ -50,12 +43,22 @@ const Work = () => (
       <WorkImage src="/images/works/javagame_wall_brick.png" alt="Mur" />
 
       <P>
-        J&apos;ai notamment appris à utiliser l&apos;algorithme <Link href='https://fr.wikipedia.org/wiki/Algorithme_A*' target='_blank'>A*</Link> pour implémenter un 
-        système de &quot;pathfinding&quot;, l&apos;utilisateur clique sur une case et 
-        l&apos;algorithme trouve le chemin le plus court pour arriver à cette case.
+        J&apos;ai notamment appris à utiliser l&apos;algorithme{' '}
+        <Link
+          href="https://fr.wikipedia.org/wiki/Algorithme_A*"
+          target="_blank"
+        >
+          A*
+        </Link>{' '}
+        pour implémenter un système de &quot;pathfinding&quot;,
+        l&apos;utilisateur clique sur une case et l&apos;algorithme trouve le
+        chemin le plus court pour arriver à cette case.
       </P>
 
-      <WorkImage src="/images/works/javagame_pathfinding.gif" alt="Pathfinding Example Gif" />
+      <WorkImage
+        src="/images/works/javagame_pathfinding.gif"
+        alt="Pathfinding Example Gif"
+      />
     </Container>
   </Layout>
 )

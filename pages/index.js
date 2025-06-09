@@ -57,10 +57,20 @@ const Home = () => (
           A propos
         </Heading>
         <Paragraph>
-          Passioné de programmation et de jeux vidéos, je suis actuellement étudiant en BUT Informatique à
-          l&apos;<Link as={NextLink} href='https://iut2.univ-grenoble-alpes.fr/' passHref target='_blank'>IUT2 de Grenoble</Link>.
-          Le domaine qui m&apos;intéresse le plus au sein de la programmation est le développement d&apos;applications web ou logicielles.
-          J&apos;aime également me lancer dans des petits projets afin de découvrir de nouvelles technologies ou simplement pour m&apos;amuser.
+          Passioné de programmation et de jeux vidéos, je suis actuellement
+          étudiant en BUT Informatique à l&apos;
+          <Link
+            as={NextLink}
+            href="https://iut2.univ-grenoble-alpes.fr/"
+            passHref
+            target="_blank"
+          >
+            IUT2 de Grenoble
+          </Link>
+          . Le domaine qui m&apos;intéresse le plus au sein de la programmation
+          est le développement d&apos;applications web ou logicielles.
+          J&apos;aime également me lancer dans des petits projets afin de
+          découvrir de nouvelles technologies ou simplement pour m&apos;amuser.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -80,12 +90,28 @@ const Home = () => (
           Diplomes
         </Heading>
         <BioSection>
-        <BioYear>2020 - 2023</BioYear>
-          Bac technologique - Système d&apos;Information et Numérique - <Link as={NextLink} href='https://ferdinand-buisson.ent.auvergnerhonealpes.fr/' passHref target='_blank'>Lycée Ferdinand Buisson</Link>
+          <BioYear>2020 - 2023</BioYear>
+          Bac technologique - Système d&apos;Information et Numérique -{' '}
+          <Link
+            as={NextLink}
+            href="https://ferdinand-buisson.ent.auvergnerhonealpes.fr/"
+            passHref
+            target="_blank"
+          >
+            Lycée Ferdinand Buisson
+          </Link>
         </BioSection>
         <BioSection>
-        <BioYear>2023 - Aujourd&apos;hui</BioYear>
-          BUT Informatique - Déploiement d&apos;applications - <Link as={NextLink} href='https://iut2.univ-grenoble-alpes.fr/' passHref target='_blank'>IUT2 Grenoble</Link>
+          <BioYear>2023 - Aujourd&apos;hui</BioYear>
+          BUT Informatique - Déploiement d&apos;applications -{' '}
+          <Link
+            as={NextLink}
+            href="https://iut2.univ-grenoble-alpes.fr/"
+            passHref
+            target="_blank"
+          >
+            IUT2 Grenoble
+          </Link>
         </BioSection>
       </Section>
 
@@ -94,9 +120,14 @@ const Home = () => (
           Experiences
         </Heading>
         <BioSection>
-        <BioYear>2025</BioYear>
-          Stage de 11 semaines - Développement d&apos;un système interactif d&apos;incitation à l&apos;usage d&apos;Energie Renouvelable pour la recharge d&apos;ordinateur portable - 
-          <Link as={NextLink} href='https://www.liglab.fr/fr'> Laboratoire Informatique de Grenoble</Link>
+          <BioYear>2025</BioYear>
+          Stage de 11 semaines - Développement d&apos;un système interactif
+          d&apos;incitation à l&apos;usage d&apos;Energie Renouvelable pour la
+          recharge d&apos;ordinateur portable -
+          <Link as={NextLink} href="https://www.liglab.fr/fr">
+            {' '}
+            Laboratoire Informatique de Grenoble
+          </Link>
         </BioSection>
       </Section>
 
@@ -104,9 +135,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Loisirs
         </Heading>
-        <Paragraph>
-          Nouvelles technologies, Jeux Vidéos, Basketball
-        </Paragraph>
+        <Paragraph>Nouvelles technologies, Jeux Vidéos, Basketball</Paragraph>
       </Section>
 
       <Section delay={0.4}>
@@ -115,22 +144,18 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href='mailto:leo.ducruet@outlook.com' target='_blank'>
-              <Button
-                variant='ghost'
-                colorScheme='teal'
-                leftIcon={<IoMail/>}
-              >
+            <Link href="mailto:leo.ducruet@outlook.com" target="_blank">
+              <Button variant="ghost" colorScheme="teal" leftIcon={<IoMail />}>
                 leo.ducruet@outlook.com
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href='https://github.com/ducruetl' target='_blank'>
+            <Link href="https://github.com/ducruetl" target="_blank">
               <Button
-                variant='ghost'
-                colorScheme='teal'
-                leftIcon={<IoLogoGithub/>}
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
               >
                 @ducruetl
               </Button>

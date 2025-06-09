@@ -22,8 +22,7 @@ const LogoBox = styled.span`
 
 const Logo = () => {
   return (
-    (<Link href="/" scroll={false}>
-
+    <Link href="/" scroll={false}>
       <LogoBox>
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
@@ -34,9 +33,8 @@ const Logo = () => {
           Léo Ducruet
         </Text>
       </LogoBox>
-
-    </Link>)
-  );
+    </Link>
+  )
 }
 
 export default Logo
