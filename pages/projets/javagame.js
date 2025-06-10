@@ -26,7 +26,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Java / Swing</span>
+          <span>Java, Swing</span>
         </ListItem>
       </List>
 
