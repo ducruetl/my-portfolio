@@ -13,10 +13,10 @@ const Work = () => (
   <Layout title="Chat'Odyssee">
     <Container>
       <Title>
-        Chat'Odyssee <Badge>2025</Badge>
+        Chat&apos;Odyssee <Badge>2025</Badge>
       </Title>
       <P>
-        Une application web de découverte de chateau d'Auvergne-Rhône-Alpes
+        Une application web de découverte de chateau d&apos;Auvergne-Rhône-Alpes
         et de création de carnet de voyage.
       </P>
       <List ml={4} my={4}>
@@ -35,22 +35,22 @@ const Work = () => (
         Contexte
       </Heading>
       <P>
-        Chat'Odyssee est un projet réalisé dans le cadre de ma formation en
-        BUT Informatique à l'IUT2 de Grenoble. Le sujet du projet était de
+        Chat&apos;Odyssee est un projet réalisé dans le cadre de ma formation en
+        BUT Informatique à l&apos;IUT2 de Grenoble. Le sujet du projet était de
         développer une application web mettant en avant un patrimoine culturel
-        français, en l'occurrence les châteaux de la région Auvergne-Rhône-Alpes.
+        français, en l&apos;occurrence les châteaux de la région Auvergne-Rhône-Alpes.
       </P>
       
       <Heading as="h3" variant="section-title" mt={8}>
         Fonctionnalités
       </Heading>
       <P>
-        L'application permet aux utilisateurs de découvrir des châteaux
+        L&apos;application permet aux utilisateurs de découvrir des châteaux
         situés en Auvergne-Rhône-Alpes, de consulter leurs informations
         détaillées, et de créer un carnet de voyage personnalisé pour
         enregistrer leurs visites et impressions.
 
-        Ce carnet de voyage peut être partagé avec d'autres utilisateurs,
+        Ce carnet de voyage peut être partagé avec d&apos;autres utilisateurs,
         permettant ainsi de partager ses créations et découvertes à son 
         entourage.
       </P>

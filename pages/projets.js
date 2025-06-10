@@ -20,7 +20,7 @@ const Works = () => (
             title="Chat'Odyssee"
             thumbnail={thumbChatodyssee}
           >
-            Une application web de découverte de chateau d'Auvergne-Rhône-Alpes
+            Une application web de découverte de chateau d&apos;Auvergne-Rhône-Alpes
             et de création de carnet de voyage.
           </WorkGridItem>
         </Section>
