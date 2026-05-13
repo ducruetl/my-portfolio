@@ -1,16 +1,16 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Léo portfolio",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write .",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Léo Ducruet",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",

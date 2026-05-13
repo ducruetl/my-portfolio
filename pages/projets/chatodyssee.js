@@ -1,10 +1,4 @@
-import {
-  Heading,
-  Container,
-  Badge,
-  List,
-  ListItem,
-} from '@chakra-ui/react'
+import { Heading, Container, Badge, List, ListItem } from '@chakra-ui/react'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -26,10 +20,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage
-        src="/images/works/chatodyssee.png"
-        alt="Chat'Odyssee"
-      />
+      <WorkImage src="/images/works/chatodyssee.png" alt="Chat'Odyssee" />
 
       <Heading as="h3" variant="section-title" mt={8}>
         Contexte
@@ -38,9 +29,10 @@ const Work = () => (
         Chat&apos;Odyssee est un projet réalisé dans le cadre de ma formation en
         BUT Informatique à l&apos;IUT2 de Grenoble. Le sujet du projet était de
         développer une application web mettant en avant un patrimoine culturel
-        français, en l&apos;occurrence les châteaux de la région Auvergne-Rhône-Alpes.
+        français, en l&apos;occurrence les châteaux de la région
+        Auvergne-Rhône-Alpes.
       </P>
-      
+
       <Heading as="h3" variant="section-title" mt={8}>
         Fonctionnalités
       </Heading>
@@ -48,11 +40,9 @@ const Work = () => (
         L&apos;application permet aux utilisateurs de découvrir des châteaux
         situés en Auvergne-Rhône-Alpes, de consulter leurs informations
         détaillées, et de créer un carnet de voyage personnalisé pour
-        enregistrer leurs visites et impressions.
-
-        Ce carnet de voyage peut être partagé avec d&apos;autres utilisateurs,
-        permettant ainsi de partager ses créations et découvertes à son 
-        entourage.
+        enregistrer leurs visites et impressions. Ce carnet de voyage peut être
+        partagé avec d&apos;autres utilisateurs, permettant ainsi de partager
+        ses créations et découvertes à son entourage.
       </P>
     </Container>
   </Layout>

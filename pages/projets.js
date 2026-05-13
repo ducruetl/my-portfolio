@@ -20,8 +20,8 @@ const Works = () => (
             title="Chat'Odyssee"
             thumbnail={thumbChatodyssee}
           >
-            Une application web de découverte de chateau d&apos;Auvergne-Rhône-Alpes
-            et de création de carnet de voyage.
+            Une application web de découverte de chateau
+            d&apos;Auvergne-Rhône-Alpes et de création de carnet de voyage.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -36,11 +36,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem 
-            id="javagame" 
-            thumbnail={thumbJavaGame} 
-            title="Jeu 2D"
-          >
+          <WorkGridItem id="javagame" thumbnail={thumbJavaGame} title="Jeu 2D">
             Un début de jeu 2D pour apprendre les bases et les concepts du
             développement de jeux vidéos.
           </WorkGridItem>

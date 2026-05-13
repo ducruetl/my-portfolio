@@ -37,11 +37,7 @@ const Work = () => (
         caractéristiques tel que la collision. Les surfaces existantes à
         l&apos;heure actuelle sont : la terre, l&apos;eau et les murs.
       </P>
-
-      <WorkImage src="/images/works/javagame_grass.png" alt="Terre" />
-      <WorkImage src="/images/works/javagame_water.png" alt="Eau" />
-      <WorkImage src="/images/works/javagame_wall_brick.png" alt="Mur" />
-
+      <br />
       <P>
         J&apos;ai notamment appris à utiliser l&apos;algorithme{' '}
         <Link
