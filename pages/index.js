@@ -18,18 +18,13 @@ import Image from 'next/image'
 
 const Home = () => (
   <Layout>
-    <Container>
-      <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
-            Léo Ducruet
-          </Heading>
-          <p>Étudiant en BUT Informatique (IUT2 Grenoble)</p>
-        </Box>
+    <Container minW={'50%'}>
+      <Box display={{ md: 'flex' }} alignItems={'center'}>
         <Box
           flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
+          mt={'18px'}
+          mb={'12px'}
+          mr={'36px'}
           textAlign="center"
         >
           <Box
@@ -38,7 +33,6 @@ const Home = () => (
             borderStyle="solid"
             w="100px"
             h="100px"
-            display="inline-block"
             borderRadius="full"
             overflow="hidden"
           >
@@ -49,6 +43,12 @@ const Home = () => (
               height="100"
             />
           </Box>
+        </Box>
+        <Box flexGrow={1}>
+          <Heading as="h2" variant="page-title">
+            Léo Ducruet
+          </Heading>
+          <p>Étudiant en BUT Informatique (IUT2 Grenoble)</p>
         </Box>
       </Box>
 
@@ -90,18 +90,6 @@ const Home = () => (
           Diplomes
         </Heading>
         <BioSection>
-          <BioYear>2020 - 2023</BioYear>
-          Bac technologique - Système d&apos;Information et Numérique -{' '}
-          <Link
-            as={NextLink}
-            href="https://ferdinand-buisson.ent.auvergnerhonealpes.fr/"
-            passHref
-            target="_blank"
-          >
-            Lycée Ferdinand Buisson
-          </Link>
-        </BioSection>
-        <BioSection>
           <BioYear>2023 - Aujourd&apos;hui</BioYear>
           BUT Informatique - Déploiement d&apos;applications -{' '}
           <Link
@@ -113,6 +101,18 @@ const Home = () => (
             IUT2 Grenoble
           </Link>
         </BioSection>
+        <BioSection>
+          <BioYear>2020 - 2023</BioYear>
+          Bac technologique - Système d&apos;Information et Numérique -{' '}
+          <Link
+            as={NextLink}
+            href="https://ferdinand-buisson.ent.auvergnerhonealpes.fr/"
+            passHref
+            target="_blank"
+          >
+            Lycée Ferdinand Buisson
+          </Link>
+        </BioSection>
       </Section>
 
       <Section delay={0.2}>
@@ -120,12 +120,31 @@ const Home = () => (
           Experiences
         </Heading>
         <BioSection>
+          <BioYear>2025 - 2026</BioYear>
+          Alternance de 12 mois - Amélioration et support de l’entrée des
+          données dans le{' '}
+          <Link
+            as={NextLink}
+            href="https://www.design-reuse.com"
+            target="_blank"
+          >
+            site principal de D&R
+          </Link>{' '}
+          et interface des projets européens supportés par D&R -{' '}
+          <Link
+            as={NextLink}
+            href="https://www.design-reuse.com"
+            target="_blank"
+          >
+            Design And Reuse
+          </Link>
+        </BioSection>
+        <BioSection>
           <BioYear>2025</BioYear>
           Stage de 11 semaines - Développement d&apos;un système interactif
           d&apos;incitation à l&apos;usage d&apos;Energie Renouvelable pour la
-          recharge d&apos;ordinateur portable -
-          <Link as={NextLink} href="https://www.liglab.fr/fr">
-            {' '}
+          recharge d&apos;ordinateur portable -{' '}
+          <Link as={NextLink} href="https://www.liglab.fr/fr" target="_blank">
             Laboratoire Informatique de Grenoble
           </Link>
         </BioSection>
