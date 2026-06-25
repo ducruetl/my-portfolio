@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbChatodyssee from '../public/images/works/chatodyssee.png'
+import thumbGamejam from '../public/images/works/gamejam.png'
 import thumbJavaGame from '../public/images/works/javagame.png'
 
 const Works = () => (
@@ -22,6 +23,16 @@ const Works = () => (
           >
             Une application web de découverte de chateau
             d&apos;Auvergne-Rhône-Alpes et de création de carnet de voyage.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="gamejam"
+            title="Gamejam"
+            thumbnail={thumbGamejam}
+          >
+            Un petit jeu, réalisé en l&apos;espace d'une semaines.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

@@ -15,7 +15,7 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Stack</Meta>
+          <Meta>Technologies</Meta>
           <span>PHP, FatFreeFramework, JavaScript</span>
         </ListItem>
       </List>

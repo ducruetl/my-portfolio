@@ -25,7 +25,7 @@ const Work = () => (
           </span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
+          <Meta>Technologies</Meta>
           <span>Java, Swing</span>
         </ListItem>
       </List>
