@@ -40,6 +40,11 @@ export const WorkGridItem = ({
         alt={title}
         className="grid-item-thumbnail"
         placeholder="blur"
+        style={{
+          width: '400px',
+          height: '250px',
+          objectFit: 'cover',
+        }}
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
         <Text mt={2} fontSize={20}>
