@@ -36,26 +36,30 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Projets Personnels
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="javagame" thumbnail={thumbJavaGame} title="Jeu 2D">
-            Un début de jeu 2D pour apprendre les bases et les concepts du
-            développement de jeux vidéos.
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
     </Container>
   </Layout>
 )
 
 export default Works
 export { getServerSideProps } from '../components/chakra'
+
+/*
+Section projets personnels, a rajouter lorsque j'aurait complété un projet plus intéressant
+
+<Section delay={0.2}>
+  <Divider my={6} />
+
+  <Heading as="h3" fontSize={20} mb={4}>
+    Projets Personnels
+  </Heading>
+</Section>
+
+<SimpleGrid columns={[1, 1, 2]} gap={6}>
+  <Section delay={0.3}>
+    <WorkGridItem id="javagame" thumbnail={thumbJavaGame} title="Jeu 2D">
+      Un début de jeu 2D pour apprendre les bases et les concepts du
+      développement de jeux vidéos.
+    </WorkGridItem>
+  </Section>
+</SimpleGrid>
+*/

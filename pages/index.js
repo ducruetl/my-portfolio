@@ -121,7 +121,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2025 - 2026</BioYear>
-          Alternance de 12 mois - Amélioration et support de l’entrée des
+          Alternance de 11 mois - Amélioration et support de l’entrée des
           données dans le{' '}
           <Link
             as={NextLink}
