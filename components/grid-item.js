@@ -43,7 +43,7 @@ export const WorkGridItem = ({
         style={{
           width: '400px',
           height: '250px',
-          objectFit: 'cover',
+          objectFit: 'cover'
         }}
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>

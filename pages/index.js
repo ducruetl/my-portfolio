@@ -58,7 +58,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Passioné de programmation et de jeux vidéos, je suis actuellement
-          étudiant en BUT Informatique à l&apos;
+          étudiant en BUT Informatique à l'
           <Link
             as={NextLink}
             href="https://iut2.univ-grenoble-alpes.fr/"
@@ -67,10 +67,10 @@ const Home = () => (
           >
             IUT2 de Grenoble
           </Link>
-          . Le domaine qui m&apos;intéresse le plus au sein de la programmation
-          est le développement d&apos;applications web ou logicielles.
-          J&apos;aime également me lancer dans des petits projets afin de
-          découvrir de nouvelles technologies ou simplement pour m&apos;amuser.
+          . Le domaine qui m'intéresse le plus au sein de la programmation est
+          le développement d'applications web ou logicielles. J'aime également
+          me lancer dans des petits projets afin de découvrir de nouvelles
+          technologies ou simplement pour m'amuser.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -90,8 +90,8 @@ const Home = () => (
           Diplomes
         </Heading>
         <BioSection>
-          <BioYear>2023 - Aujourd&apos;hui</BioYear>
-          BUT Informatique - Déploiement d&apos;applications -{' '}
+          <BioYear>2023 - Aujourd'hui</BioYear>
+          BUT Informatique - Déploiement d'applications -{' '}
           <Link
             as={NextLink}
             href="https://iut2.univ-grenoble-alpes.fr/"
@@ -103,7 +103,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020 - 2023</BioYear>
-          Bac technologique - Système d&apos;Information et Numérique -{' '}
+          Bac technologique - Système d'Information et Numérique -{' '}
           <Link
             as={NextLink}
             href="https://ferdinand-buisson.ent.auvergnerhonealpes.fr/"
@@ -141,9 +141,9 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2025</BioYear>
-          Stage de 11 semaines - Développement d&apos;un système interactif
-          d&apos;incitation à l&apos;usage d&apos;Energie Renouvelable pour la
-          recharge d&apos;ordinateur portable -{' '}
+          Stage de 11 semaines - Développement d'un système interactif
+          d'incitation à l'usage d'Energie Renouvelable pour la recharge
+          d'ordinateur portable -{' '}
           <Link as={NextLink} href="https://www.liglab.fr/fr" target="_blank">
             Laboratoire Informatique de Grenoble
           </Link>

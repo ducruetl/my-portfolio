@@ -1,11 +1,10 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbChatodyssee from '../public/images/works/chatodyssee.png'
 import thumbGamejam from '../public/images/works/gamejam.png'
-import thumbJavaGame from '../public/images/works/javagame.png'
 
 const Works = () => (
   <Layout title="Projets">
@@ -21,18 +20,14 @@ const Works = () => (
             title="Chat'Odyssee"
             thumbnail={thumbChatodyssee}
           >
-            Une application web de découverte de chateau
-            d&apos;Auvergne-Rhône-Alpes et de création de carnet de voyage.
+            Une application web de découverte de chateau d'Auvergne-Rhône-Alpes
+            et de création de carnet de voyage.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
-            id="gamejam"
-            title="Gamejam"
-            thumbnail={thumbGamejam}
-          >
-            Un petit jeu, réalisé en l&apos;espace d'une semaines.
+          <WorkGridItem id="gamejam" title="Gamejam" thumbnail={thumbGamejam}>
+            Un petit jeu, réalisé en l'espace d'une semaine.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

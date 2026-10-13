@@ -4,10 +4,10 @@
   "description": "Léo portfolio",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
-    "start": "next start",
-    "prettier": "prettier --write .",
-    "lint": "eslint ."
+    "build": "npx next build",
+    "start": "npx next start",
+    "prettier": "npx prettier --write .",
+    "lint": "npx eslint ."
   },
   "keywords": [],
   "author": "Léo Ducruet",
