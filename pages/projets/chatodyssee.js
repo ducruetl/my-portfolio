@@ -7,7 +7,7 @@ const Work = () => (
   <Layout title="Chat'Odyssee">
     <Container minW={'50%'}>
       <Title>
-        Chat'Odyssee <Badge>2025</Badge>
+        Chat'Odyssee <Badge>2024</Badge>
       </Title>
       <P>
         Une application web de découverte de chateau d'Auvergne-Rhône-Alpes et
